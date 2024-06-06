@@ -34,31 +34,40 @@ main {
 	background-color: var(--primary-color);
 }
 
+.flex-sb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 header {
 	width: 100%;
 	height: 100px;
 }
 
 .header-inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	height: 100%;
 }
 
 header .header-right {
 	width: 70%;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
 	height: 100%;
 }
 
 header nav ul {
 	height: 100%;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
 }
 
 header nav ul li {
